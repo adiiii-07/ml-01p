@@ -1,3 +1,4 @@
+#aditya singh
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.neighbors import KNeighborsClassifier
@@ -45,4 +46,5 @@ plt.show()
 if prediction == 0:
     print("Predicted Weather: Sunny ☀️")
 else:
+
     print("Predicted Weather: Rainy 🌧️")
