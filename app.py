@@ -1,3 +1,4 @@
+#Aditya singh
 import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
@@ -45,4 +46,5 @@ st.pyplot(fig)
 if prediction == 0:
     st.success("Predicted Weather: ☀️ Sunny")
 else:
+
     st.info("Predicted Weather: 🌧️ Rainy")
